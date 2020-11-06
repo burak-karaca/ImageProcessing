@@ -1,6 +1,7 @@
 #image library pillow and OCR tool tesseract
 from PIL import Image
 import pytesseract
+
 class imageProcessing:
     def getImage():
         myImage = 'train_5.eps' # insert the eps file to be processed here,it should be in the same path as the python file
